@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Participant Ticket Booking - Robo Rumble</title>
+    <link rel="stylesheet" href="participant.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Participant Ticket Booking</h1>
+        <div id="participant-form">
+            <h3>Participant Tickets</h3>
+            <form>
+                <label for="participantName">Name:</label>
+                <input type="text" id="participantName" name="participantName" required>
+                
+                <label for="participantEmail">Email:</label>
+                <input type="email" id="participantEmail" name="participantEmail" required>
+                
+                <label for="participantTickets">Number of Tickets:</label>
+                <input type="number" id="participantTickets" name="participantTickets" min="1" required>
+                
+                <button type="submit">Buy Tickets</button>
+            </form>
+        </div>
+        <a href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

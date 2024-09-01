@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audience Ticket Booking - Robo Rumble</title>
+    <link rel="stylesheet" href="audience.css">
+</head>
+<body>
+    <div class="content1">
+        <h1>Audience Ticket Booking</h1>
+        <form action="submit_audience_ticket.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" max="10" required><br>
+            <input type="submit" value="Book Tickets">
+        </form>
+    
+        <a href="index.html">Back to Home</a>
+        
+    </div>
+</body>
+</html>
